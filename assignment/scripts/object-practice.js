@@ -34,8 +34,8 @@ console.log(`My full name is ${fullName}` );
   - Console.log your last favorite food 
 */
 
-console.log(`My first favorite food is ${me.favThreeFoods[0]}.`);
-console.log(`My last favorite food is ${me.favThreeFoods[2]}.`);
+console.log(`My first favorite food is ${me.favThreeFoods[0]}.`); //accessing first value of foods array
+console.log(`My last favorite food is ${me.favThreeFoods[2]}.`); //accessing last value of foods array
 
 
 
@@ -57,5 +57,5 @@ console.log( `Now I have ${me.shoeCount} pairs of shoes.`);
   - Console.log your object
 */
 me.favoriteColor = 'green'; //adding favorite color property to me object
-console.log(`My favorite color is ${me.favoriteColor}.`);
-console.log( me );
+console.log(`My favorite color is ${me.favoriteColor}.`); //logging favorite color property to the console
+console.log( me ); //logging me object to the console
